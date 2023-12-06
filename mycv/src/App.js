@@ -24,13 +24,17 @@ function App() {
               <i class="mr-2 fa-solid fa-phone"></i>
               <span className='text-sm font-medium'>0862021583</span>
             </div>
-            <div className=''>
+            <div>
               <i className="text-slate-600 mr-2 fa-brands fa-github"></i>
               <a href='https://github.com/VTHuong231101' className='text-sm  underline'>https://github.com/VTH<br></br>uong231101</a>
             </div>
             <div>
+              <i class="text-slate-600 mr-2 fa-brands fa-linkedin"></i>
+              <a href='https://www.linkedin.com/in/vo-thi-huong/' className='text-sm  underline'>https://www.linkedin<br></br>.com/in/vo-thi-huong/</a>
+            </div>
+            <div>
               <i className="text-slate-600 mr-2 fa-solid fa-location-dot"></i>
-              <span className='text-sm font-medium'>Quận 9, Tp. Hồ Chí Minh</span>
+              <span className='text-sm font-medium'>District 9, Ho Chi Minh City</span>
             </div>
             <div>
               <i class="text-slate-600 mr-2 fa-solid fa-envelope"></i>
@@ -42,22 +46,26 @@ function App() {
             <span className='text-lg font-bold uppercase underline'>Projects:</span>
             <div className='project leading-5 relative mt-2'>
               <span className='mb-3 font-bold uppercase'><i class="text-xs mr-1 fa-solid fa-share"></i>CV </span><br></br>
-              <span className='font-medium text-sm italic'>Thời gian thực hiện: <span className='font-normal'>4 giờ</span></span><br></br>
-              <span className='font-medium text-sm italic'>Công nghệ sử dụng: <span className='font-normal'>HTML, CSS, React</span></span><br></br>
+              <span className='font-medium text-sm italic'>Completed Within: <span className='font-normal'>4 hours</span></span><br></br>
+              <span className='font-medium text-sm italic'>Use: <span className='font-normal'>HTML, CSS, React</span></span><br></br>
               <span className='font-medium text-sm italic'>Framework: <span className='font-normal'>Tailwind CSS</span></span>
+              <a className='block underline text-sm text-blue-700' href='https://github.com/VTHuong231101/MyCV'>https://github.com/VTHuong231101/MyCV</a>
             </div>
             <div className='project leading-5 relative mt-2'>
               <span className=' font-bold uppercase'><i class="text-xs mr-1 fa-solid fa-share"></i>To Do App </span>
-              <span className='text-sm italic'>(có Responsive cho Tablet và Mobile)</span><br></br>
-              <span className='font-medium text-sm italic'>Thời gian thực hiện: <span className='font-normal'>5 ngày</span></span><br></br>
-              <span className='font-medium text-sm italic'>Công nghệ sử dụng: <span className='font-normal'>HTML, CSS, Javascript, React</span></span><br></br>
+              <span className='text-sm italic'>(have Responsive for Tablet and Mobile)</span><br></br>
+              <span className='font-medium text-sm italic'>Completed Within: <span className='font-normal'>5 days</span></span><br></br>
+              <span className='font-medium text-sm italic'>Use: <span className='font-normal'>HTML, CSS, Javascript, React</span></span><br></br>
               <span className='font-medium text-sm italic'>Framework: <span className='font-normal'>Tailwind CSS</span></span>
+              <a className='block underline text-sm text-blue-700' href='https://github.com/VTHuong231101/MyToDoApp'>https://github.com/VTHuong231101/MyToDoApp</a>
             </div>
             <div className='project leading-5 relative mt-2'>
               <span className='mb-3 font-bold uppercase'><i class="text-xs mr-1 fa-solid fa-share"></i>Anime Web Film </span><br></br>
-              <span className='font-medium text-sm italic'>Thời gian thực hiện: <span className='font-normal'>8 ngày</span></span><br></br>
-              <span className='font-medium text-sm italic'>Công nghệ sử dụng: <span className='font-normal'>HTML, CSS, Javascript, React</span></span><br></br>
+              <span className='font-medium text-sm italic'>Completed Within: <span className='font-normal'>8 days</span></span><br></br>
+              <span className='font-medium text-sm italic'>Use: <span className='font-normal'>HTML, CSS, Javascript, React</span></span><br></br>
               <span className='font-medium text-sm italic'>Framework: <span className='font-normal'>MDB</span></span>
+              <a className='block underline text-sm text-blue-700' href='https://github.com/VTHuong231101/anime-web-film'>https://github.com/VTHuong231101/anime-web-film</a>
+
             </div>
           </div>
         </div>
