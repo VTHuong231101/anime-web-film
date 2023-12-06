@@ -1,0 +1,26 @@
+.direct__link {
+  margin: 42px 0;
+}
+
+.direct__link--homeicon {
+  color: #e53637;
+  margin-right: 2px;
+}
+
+.direct__link--item {
+  margin-right: 10px;
+  position: relative;
+  color: #fff;
+  font-weight: 400;
+}
+
+.direct__link--icon {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.direct__link span {
+  color: #ccc;
+  /* font-weight: 400; */
+}

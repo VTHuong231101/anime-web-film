@@ -1,0 +1,49 @@
+.header__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header__title::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  background-color: #e53637;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+.header__filter {
+  color: #ccc;
+}
+
+.header__filter li {
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+
+.filter__active {
+  color: #fff;
+}
+
+.item__block {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.item__block h5 {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 8px 0 0 0;
+}
+
+.item__block p {
+  color: #adadad;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
