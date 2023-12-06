@@ -90,7 +90,15 @@ function App() {
                 <span className='font-medium'>Framework: </span>
                 Tailwind CSS, Bootstrap 5, MDB
               </span>
-            </div></div>
+            </div>
+            <div>
+              <i class="text-xs mr-1 fa-solid fa-share"></i>
+              <span>
+                <span className='font-medium'>English: </span>
+                Toeic 635 (Reading + Listening)
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
