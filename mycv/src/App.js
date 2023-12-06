@@ -88,7 +88,7 @@ function App() {
               <i class="text-xs mr-1 fa-solid fa-share"></i>
               <span>
                 <span className='font-medium'>Framework: </span>
-                Tailwind CSS, MD5, MDB
+                Tailwind CSS, Bootstrap 5, MDB
               </span>
             </div></div>
         </div>
