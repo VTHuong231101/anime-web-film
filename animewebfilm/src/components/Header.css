@@ -1,0 +1,84 @@
+.header__nav .active {
+  background-color: #e53637;
+  color: #fff !important;
+}
+
+.header {
+  height: 62px;
+  line-height: 62px;
+  background-color: #000;
+  position: relative;
+}
+
+.header__link {
+  display: block;
+  padding: 0 32px;
+  color: #ccc;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.header__link:hover {
+  background-color: #e53637;
+  color: #fff;
+}
+
+.header__nav {
+  z-index: 1;
+}
+
+.header__nav li a img {
+  height: 12px;
+  margin-left: 4px;
+}
+
+.header__plus img {
+  height: 24px;
+  margin: 0 18px;
+}
+
+.search__input {
+  height: 32px;
+  padding-left: 12px;
+  border-radius: 10px;
+  border: 2px solid #610505;
+  background-color: transparent;
+  color: #ccc;
+  outline: none;
+}
+
+.header__category:hover .category__list {
+  display: block;
+}
+
+.category__list {
+  display: none;
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 4px 5px 10px #222222;
+}
+
+.cartegory__link:hover .header__category .header__link {
+  background-color: #e53637;
+  color: #fff;
+}
+
+.cartegory__item {
+  line-height: 36px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.cartegory__item:hover {
+  background-color: #ccc;
+}
+
+.category__link {
+  display: block;
+  color: #000;
+}
+
+.category__link:hover {
+  color: #3e3e3e;
+}

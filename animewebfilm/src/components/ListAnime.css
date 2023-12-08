@@ -1,0 +1,52 @@
+.anime {
+  color: #fff;
+}
+
+.anime__rate {
+  width: 50px;
+  padding-left: 5px;
+  background-color: #e53637;
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+
+.rate__icon {
+  height: 12px;
+  line-height: 24px;
+  margin: 0 2px 1px 0;
+}
+
+.anime__rate span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.anime__img {
+  width: 208px;
+  height: 290px;
+  z-index: 0;
+}
+
+.anime__name {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.9;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  height: 36px;
+  line-height: 18px;
+  overflow: hidden;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.anime__views {
+  text-transform: none;
+  font-size: 13px;
+  opacity: 0.6;
+  text-align: center;
+}

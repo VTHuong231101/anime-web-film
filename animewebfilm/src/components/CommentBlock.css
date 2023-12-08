@@ -1,0 +1,70 @@
+.comment__block {
+  padding: 10px 0;
+  border-top: 1px solid #898989;
+}
+
+.user__avt--wrap {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.user__avt--img {
+  width: 24px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.user__name {
+  color: #fff;
+  font-weight: 500;
+  margin-left: 12px;
+  line-height: 30px;
+}
+
+.comment__content {
+  color: #e3e3e3;
+}
+
+.comment__interact {
+  font-size: 12px;
+  height: 18px;
+}
+
+.comment__interact i {
+  color: #6a6a6a;
+  font-size: 2px;
+  margin: 0 4px;
+}
+
+.comment__time {
+  color: #a2a2a2;
+  font-weight: 400;
+}
+
+.like__icon {
+  font-size: 13px;
+  color: #0a62bf;
+  margin-right: 2px;
+}
+
+.comment__like--number {
+  color: #b1b1b1;
+  font-weight: 500;
+}
+
+.comment__like {
+  font-weight: 500;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.comment__ans {
+  color: #ccc;
+  font-weight: 500;
+}
+
+.comment__ans:hover {
+  color: #6a6a6a;
+}
