@@ -1,9 +1,0 @@
-.infor::after {
-  content: "";
-  width: 2px;
-  height: 500px;
-  background-color: #9a9a9a;
-  position: absolute;
-  left: 203px;
-  top: 14px;
-}
