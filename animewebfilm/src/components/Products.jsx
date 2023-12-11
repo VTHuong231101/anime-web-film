@@ -50,7 +50,12 @@ function Products({ title, data, modifier }) {
             <i className="fa-solid fa-angle-down"></i>
 
             <ul className='filter__list'>
-
+              {filterList.map((item, id) => (
+                <li key={id}
+                  onClick={() => handleClick(id)}
+                  className={selected === id ? 'd-none' : ''}
+                >{item}</li>
+              ))}
             </ul>
           </div>
         </div>)}
