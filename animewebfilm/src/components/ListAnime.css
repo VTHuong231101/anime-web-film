@@ -2,6 +2,10 @@
   color: #fff;
 }
 
+.anime:hover {
+  color: #b7b7b7;
+}
+
 .anime__rate {
   width: 50px;
   padding-left: 5px;
@@ -42,6 +46,7 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  cursor: pointer;
 }
 
 .anime__views {
