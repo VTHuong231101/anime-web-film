@@ -23,7 +23,7 @@ function CommentBlock(props) {
       <div className='comment__interact d-flex'>
         <p className='comment__time'>01/11/2023</p>
         <i className="fa-solid fa-circle align-self-center"></i>
-        <span class="like__icon fa-solid fa-thumbs-up align-self-center"></span>
+        <span className="like__icon fa-solid fa-thumbs-up align-self-center"></span>
         <p className='comment__like--number'>100</p>
         <i className="fa-solid fa-circle align-self-center"></i>
         <span

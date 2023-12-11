@@ -5,8 +5,9 @@ import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import CategoryPage from './pages/CategoryPage';
 import OurBlog from './pages/OurBlog';
-import LogIn from './pages/LogIn';
+import LogIn from './components/LogIn';
 import Register from './components/Register';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blog' element={<OurBlog />} />
         <Route path='/login' element={<LogIn />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/contact' element={<Contact />} />
 
       </Routes>
       <Footer />

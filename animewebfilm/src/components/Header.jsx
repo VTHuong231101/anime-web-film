@@ -31,18 +31,11 @@ function Header(props) {
                 className='header__link'
                 to='/categories'
               >
-                Categories
+                Movies
                 <img src="/arrow.png" alt="" />
               </NavLink>
 
               <ul className="category__list">
-                <li className="cartegory__item">
-                  <Link
-                    className="category__link"
-                    to='/categories'>
-                    Categories
-                  </Link>
-                </li>
                 <li className="cartegory__item">
                   <a className="category__link" href="/">
                     Anime Details

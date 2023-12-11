@@ -62,8 +62,7 @@
 }
 
 .filter__option {
-  margin-left: 18px;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .filter i {
@@ -80,7 +79,7 @@
 }
 
 .filter__list li {
-  padding-left: 14px;
+  padding-left: 10px;
 }
 
 .filter__list li:hover {

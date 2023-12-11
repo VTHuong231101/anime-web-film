@@ -5,6 +5,7 @@ import './ContentHome.css';
 import bannerApi from '../api/bannerApi';
 import TopView from './TopView';
 import NewComments from './NewComments';
+import CommentBlock from './CommentBlock';
 
 ContentHome.propTypes = {
 
