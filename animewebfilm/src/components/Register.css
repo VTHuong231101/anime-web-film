@@ -15,7 +15,7 @@
 }
 
 .register__main {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .register__form {
@@ -62,6 +62,10 @@
   padding-left: 24px;
   flex: 1;
   color: #505050;
+}
+
+.notice {
+  font-weight: 400;
 }
 
 .form__handle {

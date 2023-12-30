@@ -33,7 +33,7 @@ function ContentHome({ trendings, populars, updates, liveActions }) {
                         <Products title='live action' data={liveActions} modifier='view all' />
                     </div>
                     <div className='col-4'>
-                        <TopView data={data} />
+                        <TopView data={data} title='Top view' filter="true" />
                         <NewComments />
                     </div>
                 </div>

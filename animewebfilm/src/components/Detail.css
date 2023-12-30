@@ -1,0 +1,97 @@
+.movie__descript {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.movie__attribute li {
+  font-weight: 400;
+  position: relative;
+  padding-left: 20px;
+  line-height: 32px;
+}
+
+.movie__attribute li::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background-color: #b7b7b7;
+  position: absolute;
+  top: 14px;
+  left: 0;
+}
+
+.attribute {
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.movie__action button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 24px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.movie__action button:hover {
+  opacity: 0.9;
+}
+
+.movie__follow {
+  background-color: #909090;
+  color: #dedede;
+}
+
+.movie__follow span {
+  padding-left: 4px;
+}
+
+.movie__watch {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.movie__cmts {
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.movie__cmts::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  background-color: #e53637;
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+.movie__add-cmt {
+  font-weight: 400;
+  margin-left: 16px;
+}
+
+.movie__add-cmt::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  background-color: #e53637;
+  position: absolute;
+  top: 3px;
+  left: -16px;
+}
+
+.movie__cmt-block textarea {
+  height: 110px;
+  resize: none;
+}
+
+.movie__cmt-block button {
+  border: none;
+  width: 150px;
+  height: 42px;
+  background-color: var(--primary-color);
+}

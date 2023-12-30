@@ -82,7 +82,7 @@ function Register(props) {
                 <i className="input__icon fa-solid fa-lock"></i>
                 <input className='register__input register__confirmpassword d-block' type='password' placeholder='Confirm Password' />
               </div>
-              <span className='notice text-white mt-2'>Confirm your password</span>
+              <span className='notice text-white mt-2'></span>
 
               <div className='form__handle d-flex justify-content-between '>
                 <button className='create-account' onClick={handleRegister}>Create Account</button>

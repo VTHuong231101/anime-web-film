@@ -6,6 +6,7 @@ import { Link, NavLink } from "react-router-dom";
 Header.propTypes = {};
 
 function Header(props) {
+
   return (
     <div className="header">
       <div className="container">
@@ -37,7 +38,7 @@ function Header(props) {
 
               <ul className="category__list">
                 <li className="cartegory__item">
-                  <a className="category__link" href="/">
+                  <a className="category__link" href="/details">
                     Anime Details
                   </a>
                 </li>
@@ -47,17 +48,17 @@ function Header(props) {
                   </a>
                 </li>
                 <li className="cartegory__item">
-                  <a className="category__link" href="/">
+                  <a className="category__link" href="/blog">
                     Blog Details
                   </a>
                 </li>
                 <li className="cartegory__item">
-                  <a className="category__link" href="/">
+                  <a className="category__link" href="/register">
                     Sign Up
                   </a>
                 </li>
                 <li className="cartegory__item">
-                  <a className="category__link" href="/">
+                  <a className="category__link" href="/login">
                     Login
                   </a>
                 </li>
@@ -85,15 +86,26 @@ function Header(props) {
 
           <div className="header__plus d-flex ">
             <span className="header__search">
-              <input className="search__input" type="text" placeholder="Search..." />
+              <input className="search__input mr-3" type="text" placeholder="Search..." />
               <img src="/search.png" alt="" />
             </span>
-            <Link to='/login'>
-              <img src="/user.png" alt="" />
-            </Link>
+            <span className="user__icon ">
+              <Link to='/login'>
+                <img className="ml-5" src="/user.png" alt="" />
+              </Link>
+              <ul className="user__modifier position-relative">
+                <li className="pl-2">Setting</li>
+                <li className="pl-2">History</li>
+                <li className="pl-2">Log Out</li>
+              </ul>
+
+            </span>
+
+
           </div>
         </header>
       </div>
+
     </div>
   );
 }

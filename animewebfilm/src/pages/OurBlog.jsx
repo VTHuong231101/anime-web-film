@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './OurBlog.css';
+import Comment from '../components/Comment';
 
 OurBlog.propTypes = {
 
@@ -33,36 +34,27 @@ function OurBlog(props) {
 
             <div className='topic__comments'>
               <h4 className='comments__quantity'>3 Comments</h4>
-              <div className='topic__comment--block d-flex'>
-                <img className='comment__avt' src='https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg' alt='' />
-                <div className='comment__details'>
-                  <div className='time'>Dec 01, 2023</div>
-                  <h4>Alice</h4>
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                  <span className='like'>Like</span>
-                  <span className='ans'>Reply</span>
-                </div>
-              </div>
-              <div className='topic__comment--block lv-2 d-flex'>
-                <img className='comment__avt' src='https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg' alt='' />
-                <div className='comment__details'>
-                  <div className='time'>Dec 01, 2023</div>
-                  <h4>Alice</h4>
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                  <span className='like'>Like</span>
-                  <span className='ans'>Reply</span>
-                </div>
-              </div>
-              <div className='topic__comment--block d-flex'>
-                <img className='comment__avt' src='https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg' alt='' />
-                <div className='comment__details'>
-                  <div className='time'>Dec 01, 2023</div>
-                  <h4>Alice</h4>
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                  <span className='like'>Like</span>
-                  <span className='ans'>Reply</span>
-                </div>
-              </div>
+              <Comment
+                avt="https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg"
+                time="Dec 01, 2023"
+                name="Alice"
+                comment="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi"
+                level="1"
+              />
+              <Comment
+                avt="https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg"
+                time="Dec 01, 2023"
+                name="Alice"
+                comment="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi"
+                level="2"
+              />
+              <Comment
+                avt="https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg"
+                time="Dec 01, 2023"
+                name="Alice"
+                comment="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi"
+                level="1"
+              />
             </div>
           </div>
           <div className='topic row'>
@@ -79,36 +71,28 @@ function OurBlog(props) {
 
             <div className='topic__comments'>
               <h4 className='comments__quantity'>3 Comments</h4>
-              <div className='topic__comment--block d-flex'>
-                <img className='comment__avt' src='https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg' alt='' />
-                <div className='comment__details'>
-                  <div className='time'>Dec 01, 2023</div>
-                  <h4>Alice</h4>
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                  <span className='like'>Like</span>
-                  <span className='ans'>Reply</span>
-                </div>
-              </div>
-              <div className='topic__comment--block lv-2 d-flex'>
-                <img className='comment__avt' src='https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg' alt='' />
-                <div className='comment__details'>
-                  <div className='time'>Dec 01, 2023</div>
-                  <h4>Alice</h4>
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                  <span className='like'>Like</span>
-                  <span className='ans'>Reply</span>
-                </div>
-              </div>
-              <div className='topic__comment--block d-flex'>
-                <img className='comment__avt' src='https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg' alt='' />
-                <div className='comment__details'>
-                  <div className='time'>Dec 01, 2023</div>
-                  <h4>Alice</h4>
-                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi</p>
-                  <span className='like'>Like</span>
-                  <span className='ans'>Reply</span>
-                </div>
-              </div>
+              <Comment
+                avt="https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg"
+                time="Dec 01, 2023"
+                name="Alice"
+                comment="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi"
+                level="1"
+              />
+              <Comment
+                avt="https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg"
+                time="Dec 01, 2023"
+                name="Alice"
+                comment="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi"
+                level="2"
+              />
+
+              <Comment
+                avt="https://leplateau.edu.vn/wp-content/uploads/2023/10/hinh-anh-con-gai-1.jpg"
+                time="Dec 01, 2023"
+                name="Alice"
+                comment="Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi"
+                level="1"
+              />
             </div>
           </div>
         </div>

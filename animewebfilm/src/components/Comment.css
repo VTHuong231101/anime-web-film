@@ -1,0 +1,57 @@
+.topic__comment--block {
+  margin: 20px 0;
+}
+
+.topic__comment--block img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topic__comments {
+  color: #fff;
+  margin-top: 40px;
+}
+
+.comments__quantity {
+  font-weight: 500;
+}
+
+.comment__avt {
+  margin-right: 20px;
+}
+
+.comment__time {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.comment__user-name {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.comment__content {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.comment__act {
+  height: 24px;
+  color: #ccc;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.like {
+  margin: 0 16px;
+}
+
+.comment__act span:hover {
+  color: #fff;
+}
+
+.topic__comment--block.lv-2 {
+  margin-left: 100px;
+}

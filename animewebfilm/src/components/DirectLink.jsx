@@ -6,7 +6,7 @@ DirectLink.propTypes = {
 
 };
 
-function DirectLink(props) {
+function DirectLink({ endpoint }) {
   return (
     <div className='direct__link'>
       <i className="fa-solid fa-house-chimney direct__link--homeicon"></i>
@@ -14,7 +14,7 @@ function DirectLink(props) {
       <i className="fa-solid fa-greater-than direct__link--icon"></i>
       <Link className='direct__link--item' to='/categories'>Categories</Link>
       <i className="fa-solid fa-greater-than direct__link--icon"></i>
-      <span>Romance</span>
+      <span>{endpoint}</span>
     </div>
   );
 }

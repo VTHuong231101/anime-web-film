@@ -6,7 +6,7 @@ TopView.propTypes = {
 
 };
 
-function TopView({ data }) {
+function TopView({ data, title, filter }) {
   const filterItems = document.querySelectorAll('.header__filter li');
   function addActiveClass(e) {
     filterItems.forEach((item) => item.classList.remove('active'))
@@ -26,13 +26,15 @@ function TopView({ data }) {
   return (
     <div className='topview__block'>
       <div className='banner__header d-flex justify-content-between'>
-        <h5 className='header__title'>Top View</h5>
-        <ul className='header__filter d-flex'>
-          <li className='filter__active' onClick={(e) => addActiveClass(e)}>Day</li>
-          <li onClick={(e) => addActiveClass(e)}>Week</li>
-          <li onClick={(e) => addActiveClass(e)}>Month</li>
-          <li onClick={(e) => addActiveClass(e)}>Year</li>
-        </ul>
+        <h5 className='header__title'>{title}</h5>
+        {filter &&
+          <ul className='header__filter d-flex'>
+            <li className='filter__active' onClick={(e) => addActiveClass(e)}>Day</li>
+            <li onClick={(e) => addActiveClass(e)}>Week</li>
+            <li onClick={(e) => addActiveClass(e)}>Month</li>
+            <li onClick={(e) => addActiveClass(e)}>Year</li>
+          </ul>
+        }
       </div>
       <div>
         {data.map((item) => (<AnimeItem key={item.id} data={item} />))}

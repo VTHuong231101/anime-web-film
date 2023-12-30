@@ -8,7 +8,7 @@ import OurBlog from './pages/OurBlog';
 import LogIn from './components/LogIn';
 import Register from './components/Register';
 import Contact from './components/Contact';
-import Detail from './components/Detail';
+import DetailPage from './pages/DetailPage';
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         <Route path='/login' element={<LogIn />} />
         <Route path='/register' element={<Register />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/details/:id' element={<Detail />} />
+        <Route path='/details' element={<DetailPage />} />
       </Routes>
       <Footer />
     </div>

@@ -31,7 +31,7 @@ function CategoryPage(props) {
   }, []);
   return (
     <div className='container'>
-      <DirectLink />
+      <DirectLink endpoint="Romance" />
 
       <div className='row'>
         <div className='col-8'>
