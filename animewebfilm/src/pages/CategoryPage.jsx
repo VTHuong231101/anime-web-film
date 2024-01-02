@@ -5,7 +5,6 @@ import romanceApi from '../api/romanceApi';
 import Pagination from '../components/Pagination';
 import TopView from './../components/TopView';
 import bannerApi from '../api/bannerApi';
-import NewComments from '../components/NewComments';
 
 CategoryPage.propTypes = {
 
@@ -40,7 +39,6 @@ function CategoryPage(props) {
         </div>
         <div className='col-4'>
           <TopView data={data} />
-          <NewComments />
         </div>
       </div>
     </div>

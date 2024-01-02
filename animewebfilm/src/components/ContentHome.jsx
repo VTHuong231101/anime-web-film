@@ -4,14 +4,15 @@ import Products from './Products';
 import './ContentHome.css';
 import bannerApi from '../api/bannerApi';
 import TopView from './TopView';
-import NewComments from './NewComments';
-import CommentBlock from './CommentBlock';
 
 ContentHome.propTypes = {
 
 };
 
 function ContentHome({ trendings, populars, updates, liveActions }) {
+
+    const [isLiked, setIsLiked] = useState(false);
+
     const [data, setData] = useState([]);
     useEffect(() => {
         async function bannerAnimes() {
@@ -20,7 +21,6 @@ function ContentHome({ trendings, populars, updates, liveActions }) {
         };
         bannerAnimes();
     }, []);
-
 
     return (
         <div>
@@ -34,7 +34,7 @@ function ContentHome({ trendings, populars, updates, liveActions }) {
                     </div>
                     <div className='col-4'>
                         <TopView data={data} title='Top view' filter="true" />
-                        <NewComments />
+
                     </div>
                 </div>
             </div>
